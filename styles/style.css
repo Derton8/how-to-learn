@@ -16,7 +16,6 @@
   background-color: #f2f2f2;
   display: flex;
   position: relative;
-  /* выше установили ограничения для секции */
 }
 
 .logo {
@@ -40,7 +39,6 @@
   font-weight: 600;
   font-size: 102px;
   align-self: center;
-  z-index: 2;
 }
 
 .header__subtitle {
@@ -70,7 +68,6 @@
   z-index: 1;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -128,7 +125,52 @@
   font-weight: 600;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+.digits {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-title {
+  margin: 0;
+  width: 60%;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.section-subtitle {
+  margin: 0;
+  padding-top: 20px;
+  width: 60%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 1100px;
+  list-style: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.table__cell {
+  margin: 0;
+}
+
+.table__cell_theme_light {
+  width: 250px;
+  margin-top: 60px;
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -136,3 +178,17 @@
   margin-top: 80px;
 }
 
+.table__heading {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 20px 0 0;
+}
