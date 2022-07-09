@@ -109,7 +109,7 @@
 
 .two-columns__main-text {
   margin: 0;
-  width: 80%; 
+  width: 80%;
   min-width: 784px;
 }
 
@@ -347,7 +347,6 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  background-size: cover;
   display: inline-flex;
   margin-right: 10px;
   align-self: center;
