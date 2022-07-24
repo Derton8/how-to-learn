@@ -65,6 +65,7 @@
   bottom: 0;
   right: 0;
   z-index: 1;
+  object-fit: cover;
 }
 
 .header__square-pic {
@@ -283,7 +284,7 @@
   top: 0;
   width: 877px;
   height: 877px;
-  background-size:cover;
+  background-size: cover;
 }
 
 /*----------------------FOOTER----------------------*/
