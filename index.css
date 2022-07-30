@@ -1,11 +1,11 @@
 @import url(vendor/normalize.css);
 @import url(blocks/page/page.css);
 @import url(blocks/rotation/rotation.css);
+@import url(blocks/logo/logo.css);
 
 /*----------------------HEADER----------------------*/
 
 @import url(blocks/header/header.css);
-@import url(blocks/logo/logo.css);
 @import url(blocks/logo/_place/logo_place_header.css);
 @import url(blocks/header/__title/header__title.css);
 @import url(blocks/header/__subtitle/header__subtitle.css);
@@ -20,6 +20,9 @@
 /*--------------------DESCRIPTION SECTION-------------------*/
 
 @import url(blocks/description/description.css);
+
+/*--------------------TWO COLUMNS-------------------*/
+
 @import url(blocks/two-columns/two-columns.css);
 @import url(blocks/two-columns/__brief/two-columns__brief.css);
 @import url(blocks/two-columns/__main-text/two-columns__main-text.css);
@@ -29,6 +32,9 @@
 /*--------------------TECHNIQUES SECTION--------------------*/
 
 @import url(blocks/techniques/techniques.css);
+
+/*--------------------CARDS--------------------*/
+
 @import url(blocks/cards/cards.css);
 @import url(blocks/cards/__image/cards__image.css);
 @import url(blocks/cards/__item/cards__item.css);
@@ -56,10 +62,16 @@
 /*----------------------DIGITS SECTION----------------------*/
 
 @import url(blocks/digits/digits.css);
+
+/*----------------------TITLES----------------------*/
+
 @import url(blocks/section-title/section-title.css);
 @import url(blocks/section-title/_theme/section-title_theme_dark.css);
 @import url(blocks/section-subtitle/section-subtitle.css);
 @import url(blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+
+/*----------------------TABLE----------------------*/
+
 @import url(blocks/table/table.css);
 @import url(blocks/table/__cell/table__cell.css);
 @import url(blocks/table/__cell/_theme/table__cell_theme_dark.css);
@@ -85,6 +97,13 @@
 
 @import url(blocks/kaufman/kaufman.css);
 @import url(blocks/kaufman/__triangle/kaufman__triangle.css);
+
+/*---------------------RESOURCES SECTION---------------------*/
+
+@import url(blocks/resources/resources.css);
+@import url(blocks/resources/__link/resources__link.css);
+@import url(blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(blocks/resources/__logo/resources__logo.css);
 
 /*----------------------FOOTER----------------------*/
 
